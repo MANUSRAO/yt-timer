@@ -14,7 +14,10 @@ let storageArr = undefined;
 getLocalStorageValue("arrWeek")
     .then((value)=>{
         storageArr = value;
-        storageArr = JSON.parse(storageArr.arrWeek);
+        if(storageArr==undefined)
+            storageArr = [0,0,0,0,0,0,0];
+        else
+            storageArr = JSON.parse(storageArr.arrWeek);
         if(storageArr==undefined)
             storageArr = [0,0,0,0,0,0,0];
         let today = new Date().getDay();

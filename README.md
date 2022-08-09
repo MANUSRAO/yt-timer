@@ -8,3 +8,4 @@ Are you addicted to watching YouTube? I am. That's why I built this chrome exten
 5. Accept the permissions required, voila Yt Timer is activated.
 ## Note: 
 * Timer on Homepage is shown only for Dark Mode pages, I'll refactor the code to support both modes.
+* If your new to chrome extensions, then [check out this article](https://manusrao.hashnode.dev/everything-you-need-to-know-about-chrome-extensions) to understand more about them.

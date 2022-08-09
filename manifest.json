@@ -1,0 +1,25 @@
+{
+    "name":"YouTube Timer",
+    "description":"This Chrome extension lets you measure time spent on youtube",
+    "version":"1.0",
+    "manifest_version":3,
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"YouTube Timer shows you time spent on YouTube.",
+        "default_icon": {
+            "16": "Yt.png",
+            "32": "Yt.png",
+            "64": "Yt.png",
+            "128": "Yt.png"
+          }
+    },
+    "permissions":[
+        "storage"
+    ],
+    "content_scripts":[
+        {
+            "matches":["http://www.youtube.com/*","https://www.youtube.com/*"],
+            "js":["script.js"]
+        }
+    ]
+}

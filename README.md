@@ -4,5 +4,7 @@ Are you addicted to watching YouTube? I am. That's why I built this chrome exten
 1. Clone the repository.
 2. Open your browser and on address bar paste this link `chrome://extensions/` (works on both Google Chrome and Brave)
 3. In the top right corner, turn on 'Developer Mode`, this will activate three buttons on the left.
-4. Click `Load Packed`, and select the folder where you cloned the repository.
+4. Click `Load Unpacked`, and select the folder where you cloned the repository.
 5. Accept the permissions required, voila Yt Timer is activated.
+## Note: 
+* Timer on Homepage is shown only for Dark Mode pages, I'll refactor the code to support both modes.

@@ -61,6 +61,6 @@ function starter(){
     let child = document.createElement("h2");
     child.setAttribute("id","timer-func");
     child.innerText = " s";
-    child.style = "color:#fff";
+    child.style = "color:#000000";
     starts.append(child);
 }

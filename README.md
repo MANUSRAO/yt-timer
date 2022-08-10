@@ -9,3 +9,4 @@ Are you addicted to watching YouTube? I am. That's why I built this chrome exten
 ## Note: 
 * Timer on Homepage is shown only for Dark Mode pages, I'll refactor the code to support both modes.
 * If your new to chrome extensions, then [check out this article](https://manusrao.hashnode.dev/everything-you-need-to-know-about-chrome-extensions) to understand more about them.
+* If you use YouTube in light mode then change branch from `main` to `main-light` and follow the same steps as above.
